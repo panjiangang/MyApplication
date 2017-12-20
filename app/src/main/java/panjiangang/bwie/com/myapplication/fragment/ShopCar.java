@@ -64,6 +64,7 @@ public class ShopCar extends Fragment {
         qxBtn = view.findViewById(R.id.shopcar_qx_btn);
         rv = view.findViewById(R.id.shopcar_rv);
         if (b) {
+
             gethttp();
             qxBtn.setOnClickListener(new View.OnClickListener() {
                 @Override
